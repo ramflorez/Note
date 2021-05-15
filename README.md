@@ -5,11 +5,16 @@ Node.js, Inquirer package, Express,Github API, Heroku.
 
 ramflorez@yahoo.com
 
-# Walkthrough Video
+# Deployed pages sreeenshots
 
 <img src = ""> 
 
-  
+# Heroku link
+
+[Heroku link](https://pacific-journey-40181.herokuapp.com/)
+
+
+
   
   ## Description 
   
@@ -52,11 +57,11 @@ ramflorez@yahoo.com
   
   - [Project Repo](https://github.com/ramflorez/Note)
   
-  ## DB File
+  ## JASON File
 
   Information is written on a db.json file.
 
-  <a href="Develop/db/db.json"> DB File</a>
+  <a href="https://github.com/ramflorez/Note/blob/main/Develop/db/db.json"> JSON File</a>
   
   ## GitHub_&_Questions
 
