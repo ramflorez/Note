@@ -1,13 +1,15 @@
 # Express.js: Note Taker
 ![](https://img.shields.io/apm/l/vim-mode) 
 
-Node.js, Inquirer package, Express,Github API, Heroku.
+Node.js, Inquirer, Express, Heroku.
 
 ramflorez@yahoo.com
 
-# Deployed pages sreeenshots
+# Deployed pages sreenshots
 
-<img src = ""> 
+<img src = "Develop/html.png"> 
+
+<img src = "Develop/notes.png"> 
 
 # Heroku link
 
@@ -18,7 +20,7 @@ ramflorez@yahoo.com
   
   ## Description 
   
-  This application is created with node.js that allows creating a create an application called Note Taker that can be used to write and save notes.
+  This application is created with node.js to allow creating an application called Note Taker that can be used to write and save notes.
   
   ## Table of contents
   
@@ -34,7 +36,7 @@ ramflorez@yahoo.com
   
   ## Installation
   
-          First install npm packet (npm install ) including Inquirer package (npm install inquirer) and express packet (npm install express). Then, invoke the application by running node server.js. That will declare the port (local host )that should be used in the browser.
+          First install npm packet (npm install ) including Inquirer  (npm install inquirer) and express packets (npm install express). Then, invoke the application by running node server.js. The port (local host )that should be used in the browser to find the Note Taker application will be shown.
   
   ## Usage
   
