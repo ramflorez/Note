@@ -1,131 +1,67 @@
-# 11 Express.js: Note Taker
+# Express.js: Note Taker
+![](https://img.shields.io/apm/l/vim-mode) 
 
-## Your Task
+Node.js, Inquirer package, Express,Github API, Heroku.
 
-Your assignment is to modify starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+ramflorez@yahoo.com
 
-The application’s front end has already been created. It's your job to build the back end, connect the two, and then deploy the entire application to Heroku.
+# Walkthrough Video
 
+<img src = ""> 
 
-## User Story
+  
+  
+  ## Description 
+  
+  This application is created with node.js that allows creating a create an application called Note Taker that can be used to write and save notes.
+  
+  ## Table of contents
+  
+  - [Description](#Description)
+  - [Installation](#Installation)
+  - [usage](#usage)
+  - [License](#License)
+  - [Contributing](#Contributing)
+  - [Test](#Test)
+  - [Repository Link](#Repository)
+  - [GitHub & Questions](#GitHub_&_Questions) 
+  
+  
+  ## Installation
+  
+          First install npm packet (npm install ) including Inquirer package (npm install inquirer) and express packet (npm install express). Then, invoke the application by running node server.js. That will declare the port (local host )that should be used in the browser.
+  
+  ## Usage
+  
+  Open the port in your browser, click the "Get Started" button. Then, write title for your notes, enter your notes and click the save button icon that shows when finished typing.
+  
+  ## License
+  
+  MIT
+  
+  ## Contributing
+  
+  Myself, Ramiro Florez, ramflorez@yahoo.com
+  
+  ## Test
+  
+  run node server.js
+  
+  
+  ## Repository
+  
+  - [Project Repo](https://github.com/ramflorez/Note)
+  
+  ## DB File
 
-```
-AS A small business owner
-I WANT to be able to write and save notes
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
-```
+  Information is written on a db.json file.
 
+  <a href="Develop/db/db.json"> DB File</a>
+  
+  ## GitHub_&_Questions
 
-## Acceptance Criteria
-
-```
-GIVEN a note-taking application
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-WHEN I enter a new note title and the note’s text
-THEN a Save icon appears in the navigation at the top of the page
-WHEN I click on the Save icon
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column
-WHEN I click on the Write icon in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
-```
-
-
-## Mock-Up
-
-The following images show the web application's appearance and functionality: 
-
-![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./Assets/11-express-homework-demo-01.png)
-
-![Note titled “Balance accounts” reads, “Balance account books by end of day Monday,” with other notes listed on the left.](./Assets/11-express-homework-demo-02.png)
-
-
-## Getting Started
-
-The application should have a `db.json` file on the back end that will be used to store and retrieve notes using the `fs` module.
-
-The following HTML routes should be created:
-
-* `GET /notes` should return the `notes.html` file.
-
-* `GET *` should return the `index.html` file.
-
-The following API routes should be created:
-
-* `GET /api/notes` should read the `db.json` file and return all saved notes as JSON.
-
-* `POST /api/notes` should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client. You'll need to find a way to give each note a unique id when it's saved (look into `npm` packages that could do this for you).
-
-
-## Bonus
-
-You haven’t learned how to handle DELETE requests, but this application has that functionality in the front end. As a bonus, see if you can add the DELETE route to the application using the following guideline:
-
-* `DELETE /api/notes/:id` should receive a query parameter containing the id of a note to delete. In order to delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
-
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria plus the following:
-
-  * Application front end must connect to an Express.js back end.
-
-  * Application back end must store notes with unique IDs in a JSON file.
-
-  * Application must be deployed to Heroku.
-
-
-### Deployment: 36%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-
-### Application Quality: 11%
-
-* Application console is free of errors.
-
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-
-### Bonus: +10 Points
-
-* Application allows users to delete notes.
-
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
-# Note
+  ![author image](https://avatars.githubusercontent.com/u/79117018?v=4)
+  - Ramiro Florez
+  - [GitHub Profile](https://github.com/ramflorez)
+  - ramflorez@yahoo.com
+  
