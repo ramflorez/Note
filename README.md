@@ -5,7 +5,7 @@ Node.js, Inquirer, Express, Heroku.
 
 ramflorez@yahoo.com
 
-# Deployed pages sreenshots
+# Deployed pages screenshots
 
 <img src = "Develop/html.png"> 
 
